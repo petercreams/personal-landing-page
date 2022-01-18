@@ -1,0 +1,47 @@
+$red-color: #dc2e2e;
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+  padding: 1rem 0;
+  z-index: 1000;
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  a {
+    &:hover {
+      color: $red-color;
+    }
+  }
+
+  .navbar_left {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .navbar_right {
+    a {
+      background: $red-color;
+      border-radius: 10px;
+      padding: 0.5rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+      &:hover {
+        color: white;
+      }
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
