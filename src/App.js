@@ -1,12 +1,71 @@
 import "./App.scss";
+import Navbar from "./components/Navbar";
+import About from "./components/Pages/About";
+import Home from "./components/Pages/Home";
+import Passions from "./components/Pages/Passions";
+import Portfolio from "./components/Pages/Portfolio";
+import Contact from "./components/Pages/Contact";
+
+import { animateScroll } from "react-scroll";
+
+import { useEffect } from "react";
 
 function App() {
+  // scroll to top on load
+  useEffect(() => {
+    animateScroll.scrollToTop();
+  }, []);
+
+  // highlight current section in Navbar
+  useEffect(() => {
+    const sections = document.querySelectorAll("[id^='section']");
+    const navbarEl = document.querySelectorAll("a");
+
+    var current = "";
+
+    window.addEventListener("scroll", () => {
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (window.scrollY >= sectionTop - sectionHeight / 4) {
+          current = section.getAttribute("name");
+        }
+      });
+
+      navbarEl.forEach((element) => {
+        element.classList.remove("active");
+
+        if (element.classList.contains(current)) {
+          element.classList.add("active");
+        }
+      });
+    });
+  });
+
   return (
-    <div className="bg">
-      <p>Test</p>
-      {/* // Navbar 
-      // Page1 */}
-    </div>
+    <>
+      <Navbar />
+
+      <div className="bg">
+        <body>
+          <Home />
+          <About />
+          <Passions />
+          <Portfolio />
+          <Contact />
+        </body>
+
+        <img
+          className="arrow"
+          src="arrow-down-circle.svg"
+          alt="arrow-down"
+          onClick={() => {
+            animateScroll.scrollMore(1000);
+          }}
+        />
+      </div>
+    </>
   );
 }
 
