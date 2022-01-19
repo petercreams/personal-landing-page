@@ -5,7 +5,8 @@ $red-color: #dc2e2e;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 75%;
+  max-width: 75%;
+  //   max-height: 20%;
   padding: 1rem 0;
   z-index: 1000;
   position: fixed;
@@ -23,6 +24,14 @@ $red-color: #dc2e2e;
   .navbar_left {
     display: flex;
     gap: 1.5rem;
+
+    .active {
+      color: $red-color;
+    }
+
+    .scroll {
+      opacity: 0.8;
+    }
   }
 
   .navbar_right {
@@ -43,5 +52,40 @@ $red-color: #dc2e2e;
     &:hover {
       opacity: 0.8;
     }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar_container {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  //   .navbar_container {
+  //     display: none;
+  //   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .navbar_container {
+    font-size: 0.5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar_container {
+    font-size: 0.6rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .navbar_container {
+    font-size: 1rem;
   }
 }
