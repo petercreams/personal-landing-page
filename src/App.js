@@ -9,6 +9,7 @@ import Contact from "./components/Pages/Contact";
 import { animateScroll } from "react-scroll";
 
 import { useEffect } from "react";
+import Test from "./components/Pages/Test";
 
 function App() {
   // scroll to top on load
@@ -44,28 +45,26 @@ function App() {
   });
 
   return (
-    <>
+    <body>
       <Navbar />
-
+      {/* <Test /> */}
       <div className="bg">
-        <body>
-          <Home />
-          <About />
-          <Passions />
-          <Portfolio />
-          <Contact />
-        </body>
+        <Home />
+        <About />
+        <Passions />
+        <Portfolio />
+        <Contact />
 
-        <img
+        {/* <img
           className="arrow"
           src="arrow-down-circle.svg"
           alt="arrow-down"
           onClick={() => {
             animateScroll.scrollMore(1000);
           }}
-        />
+        /> */}
       </div>
-    </>
+    </body>
   );
 }
 
