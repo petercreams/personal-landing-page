@@ -139,12 +139,12 @@ $red-color: #dc2e2e;
     .stripes_container {
       .stripe_item__1 {
         #name {
-          font-size: 5rem;
+          font-size: 3.3rem;
         }
       }
 
       .stripe_item__2 {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
 
@@ -152,7 +152,9 @@ $red-color: #dc2e2e;
       // transform: scale(0.6);
       // height: auto;
       // width: auto;
-      max-width: 70%;
+      max-width: 50%;
+      min-width: 30%;
+      width: 100%;
     }
   }
 }
