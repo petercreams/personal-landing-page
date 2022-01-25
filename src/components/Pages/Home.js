@@ -22,11 +22,15 @@ export default function Home(params) {
             <p>Education</p>
           </div>
         </div>
-        <img
-          className="profile_photo"
-          src="piotr_photo.png"
-          alt="Piotr Śmietanka"
-        />
+        <div className="profile_photo">
+          <img
+            // className="profile_photo"
+            src="piotr_photo.png"
+            alt="Piotr Śmietanka"
+          />
+          <span className="dot-white"></span>
+          <span className="dot-red"></span>
+        </div>
       </div>
     </Element>
   );
