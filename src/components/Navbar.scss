@@ -126,6 +126,7 @@ $red-color: #dc2e2e;
   .navbar_container {
     justify-content: flex-end;
     max-width: 100%;
+    z-index: 20;
     // left: -100%;
 
     svg {
@@ -176,7 +177,7 @@ $red-color: #dc2e2e;
       display: flex;
       //   justify-content: space-evenly;
       //   align-items: center;
-      
+
       -webkit-transition: all, 0.2s, ease-in;
       -moz-transition: all, 0.2s, ease-in;
       -o-transition: all, 0.2s, ease-in;
