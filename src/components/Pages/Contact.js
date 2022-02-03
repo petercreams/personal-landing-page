@@ -22,7 +22,7 @@ export default function Contact(params) {
               rel="noreferrer"
               className="provider"
             >
-              <img src="/images/contact/Git.png" alt="" />
+              <img src="images/contact/Git.png" alt="github" />
             </a>
             <a
               href="https://www.instagram.com/peter_creams/"
@@ -30,7 +30,7 @@ export default function Contact(params) {
               rel="noreferrer"
               className="provider"
             >
-              <img src="/images/contact/Instagram.png" alt="" />
+              <img src="images/contact/Instagram.png" alt="instagram" />
             </a>
             <a
               href="mailto:piotr_smietanka@outlook.com"
@@ -38,7 +38,7 @@ export default function Contact(params) {
               rel="noreferrer"
               className="provider"
             >
-              <img src="/images/contact/Email.png" alt="" />
+              <img src="images/contact/Email.png" alt="email" />
             </a>
             <a
               href="tel: +48530477514"
@@ -46,7 +46,7 @@ export default function Contact(params) {
               rel="noreferrer"
               className="provider"
             >
-              <img src="/images/contact/Telpon.png" alt="" />
+              <img src="images/contact/Telpon.png" alt="telephone" />
             </a>
           </div>
         </div>
