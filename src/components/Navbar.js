@@ -43,9 +43,9 @@ export default function Navbar(params) {
           onClick={() => setIsClicked(!isClicked)}
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
-          fill="none"
+          fill="black"
           viewBox="0 0 24 24"
-          stroke="white"
+          stroke="red"
           style={{
             width: "7rem",
             position: "fixed",
