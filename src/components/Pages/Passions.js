@@ -27,7 +27,7 @@ const passions = [
     id: "2",
     image: "images/passions/teach.svg",
     name: "Teaching / Mentoring",
-    text: "Just about in school, I've realized that teaching others is not only my passion but also a valuable skill. It makes me feel fulfilled and encouraged when I can make some, at the start, the complex material sounds easy and understandable for my student. In my 5y+ teaching career, I've been preparing students for their finals in math and physics. I can undoubtedly say that there is nothing I can't teach, if only I understand it. As a teacher, I also focus on students' character, so I can better encourage and motivate them to work and develop.",
+    text: "Just about in school, I've realized that teaching others is not only my passion but also a valuable skill. It makes me feel fulfilled and encouraged when I can make some, at the start, the complex material sounds easy and understandable for my student. In my 5y+ teaching career, I've been preparing students for their finals in math and physics. I can undoubtedly say that there is nothing I can't teach, if only I understand a subject. As a teacher, I also focus on students' character, so I can better encourage and motivate them to work and develop.",
     imagePassion: "",
   },
   {
@@ -56,14 +56,6 @@ const passions = [
 // TODO: po kliknięciu wyświetlenie się modala poniżej na mobile i modala normalnego na desktopie
 
 export default function Passions(params) {
-  const [isClicked, setIsClicked] = useState({
-    frontend: false,
-    marketing: false,
-    teaching: false,
-    business: false,
-    selfdev: false,
-    acting: false,
-  });
 
   return (
     <Element name="passions" id="section">
@@ -85,36 +77,6 @@ export default function Passions(params) {
               />
             );
           })}
-          {/* <PassionCard
-            id="1"
-            image="images/passions/frontend.svg"
-            name="Front-end Development"
-          />
-          <PassionCard
-            id="2"
-            image="images/passions/marketing.svg"
-            name="Online marketing"
-          />
-          <PassionCard
-            id="3"
-            image="images/passions/teach.svg"
-            name="Teaching / Mentoring"
-          />
-          <PassionCard
-            id="4"
-            image="images/passions/business.svg"
-            name="Business development"
-          />
-          <PassionCard
-            id="5"
-            image="images/passions/selfdev.svg"
-            name="Self development"
-          />
-          <PassionCard
-            id="6"
-            image="images/passions/art.svg"
-            name="Acting / Singing"
-          /> */}
         </div>
       </div>
     </Element>
