@@ -26,11 +26,11 @@ export default function About(params) {
             </p>
           </div>
         </div>
-        <img
-          className="profile_photo_2"
-          src="piotr_photo.png"
-          alt="Piotr Śmietanka"
-        />
+        <div className="profile_photo">
+          <img src="piotr_photo.png" alt="Piotr Śmietanka" />
+          <span className="dot-white"></span>
+          <span className="dot-red"></span>
+        </div>
       </div>
     </Element>
   );
