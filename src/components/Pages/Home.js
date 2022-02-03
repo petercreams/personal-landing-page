@@ -24,7 +24,6 @@ export default function Home(params) {
         </div>
         <div className="profile_photo">
           <img
-            // className="profile_photo"
             src="piotr_photo.png"
             alt="Piotr Śmietanka"
           />
