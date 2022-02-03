@@ -27,7 +27,7 @@ const passions = [
     id: "2",
     image: "images/passions/teach.svg",
     name: "Teaching / Mentoring",
-    text: "Back in school, I realized that teaching others is not only my passion but also a valuable skill. I feel fulfilled and uplifted when I can make initially complex material sound easy and understandable to a student. In my 5+ years as a teacher, I have prepared students for math and physics midterm exams. I can say without a doubt that there is nothing I can't teach as long as I understand the subject. As a teacher, I also pay attention to students' character traits so that I can better encourage and motivate them to work and grow.",
+    text: "Back in school, I realized that teaching others is not only my passion but also a valuable skill. I feel fulfilled and uplifted when I can make initially complex material sound easy and understandable to a student. In my 5+ years as a teacher, I have prepared students for math and physics finals. I can say without a doubt that there is nothing I can't teach as long as I understand the subject. As a teacher, I also pay attention to students' character traits so that I can better encourage and motivate them to work and grow.",
     imagePassion: "",
   },
   {
