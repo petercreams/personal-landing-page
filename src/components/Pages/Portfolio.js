@@ -75,7 +75,11 @@ export default function Portfolio(params) {
           <div className="project_container">
             <h1>{`#${portfolio[0].id} Project`}</h1>
             <p>
-              Click <a href="/">here</a> to open
+              Click{" "}
+              <a href="https://github.com/petercreams/personal-landing-page">
+                here
+              </a>{" "}
+              to open
             </p>
 
             <img
