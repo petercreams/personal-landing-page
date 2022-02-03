@@ -1,5 +1,5 @@
-import { Link as Scroll, Element, animateScroll, scrollTo } from "react-scroll";
-import { useState } from "react";
+import { Element } from "react-scroll";
+
 import PassionCard from "../Cards/PassionCard";
 
 import "./Passions.scss";

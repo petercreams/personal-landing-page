@@ -6,16 +6,14 @@ import Passions from "./components/Pages/Passions";
 import Portfolio from "./components/Pages/Portfolio";
 import Contact from "./components/Pages/Contact";
 
-import { animateScroll } from "react-scroll";
-
 import { useEffect } from "react";
-import Test from "./components/Pages/Test";
+
 
 function App() {
   // scroll to top on load
-  useEffect(() => {
-    animateScroll.scrollToTop();
-  }, []);
+  // useEffect(() => {
+  //   animateScroll.scrollToTop();
+  // }, []);
 
   // highlight current section in Navbar
   useEffect(() => {
@@ -54,6 +52,10 @@ function App() {
         <Passions />
         <Portfolio />
         <Contact />
+        <footer>
+          <p>Designed & Developed 2022</p>
+          <p>©Piotr Śmietanka</p>
+        </footer>
 
         {/* <img
           className="arrow"
