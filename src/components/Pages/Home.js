@@ -1,8 +1,6 @@
 import "./Home.scss";
 
-import { Link as Scroll, Element, animateScroll } from "react-scroll";
-
-// TODO: dodać koła za mną białe i czerwone jak w projekcie, ktore wychodza zza mnie po najechaniu
+import { Element } from "react-scroll";
 
 export default function Home(params) {
   return (
@@ -23,10 +21,7 @@ export default function Home(params) {
           </div>
         </div>
         <div className="profile_photo">
-          <img
-            src="piotr_photo.png"
-            alt="Piotr Śmietanka"
-          />
+          <img src="piotr_photo.png" alt="Piotr Śmietanka" />
           <span className="dot-white"></span>
           <span className="dot-red"></span>
         </div>
