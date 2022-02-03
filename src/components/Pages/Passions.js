@@ -34,21 +34,21 @@ const passions = [
     id: "3",
     image: "images/passions/business.svg",
     name: "Business development",
-    text: "3",
+    text: "I've always been a type of self-starter. In 2016, I ran my first community project - a laser tag championship - in my hometown where we raised money for charity. For the first time in my life, I realized that not only could I have an impact, but I also enjoyed creating projects: coming up with them, managing them, and executing them. From that point on, I've been collaborating with Fundacja Energia-Działanie Foundation as a volunteer and project coordinator and earned certifications in project management (f.e. PMF - Project Management Fundamentals).  I was also an active member of the international organization Enactus Warsaw University of Technology, where for half a year I led my project on integration in times of COVID-19 pandemic, which involved six people and resulted in 4 online meetings for students from Warsaw universities. In mid-2020, my associate and I started an online e-learning business, which has been developed ever since.",
     imagePassion: "",
   },
   {
     id: "4",
     image: "images/passions/selfdev.svg",
     name: "Self development",
-    text: "4",
+    text: "Getting up at 6:30 a.m. every day, getting 6.5 hours of sleep, filling every gap in my calendar with "productive activities," engaging in a million things at once... I DON'T DO THAT ANYMORE :) I've realized how important it is to balance life and enjoy the journey, hence I still set the bar high for myself, but not at all costs anymore. I enjoy reading psychology and business books and listening to podcasts and interviews on these topics. In my free time, I also like to be close to nature.",
     imagePassion: "",
   },
   {
     id: "5",
     image: "images/passions/art.svg",
     name: "Acting / Singing",
-    text: "x",
+    text: "Art and my person have always been close to each other. During my school years, I won recitation contests and performed on stage as a presenter or actor. In high school, together with my friends, we founded a theater group and staged two musicals. In one of them, I played the main role - I played the piano, sang and danced - for the other I only recorded background music. I am also a piano graduate from the First Degree Music School in Kozienice. In my free time, I like to go out for a beer and karaoke, and whenever I have the opportunity to perform on stage - I gladly do it.",
     imagePassion: "",
   },
 ];
@@ -56,7 +56,6 @@ const passions = [
 // TODO: po kliknięciu wyświetlenie się modala poniżej na mobile i modala normalnego na desktopie
 
 export default function Passions(params) {
-
   return (
     <Element name="passions" id="section">
       <div className="container">
