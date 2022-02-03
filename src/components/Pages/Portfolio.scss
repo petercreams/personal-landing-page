@@ -1,0 +1,152 @@
+$red-color: #dc2e2e;
+
+.title {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem 15rem;
+  display: inline-block;
+
+  max-width: fit-content;
+  width: 80%;
+
+  font-size: 4rem;
+
+  text-align: center;
+
+  span {
+    font-weight: bold;
+
+    text-decoration: underline;
+    text-decoration-color: $red-color;
+    text-align: center;
+  }
+}
+
+.portfolio_container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 13rem;
+
+  flex-direction: column;
+
+  gap: 4rem;
+
+  //   height: fit-content;
+
+  .projects_container {
+    width: 90%;
+    min-height: 50rem;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+
+    .project_container {
+      background: #ffffff;
+      box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+      border-radius: 13px;
+
+      width: 60%;
+      min-height: 50rem;
+
+      padding: 2rem;
+
+      display: flex;
+      flex-direction: column;
+
+      h1,
+      p {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+        padding: 0.3rem 0 2rem 0;
+      }
+
+      a {
+        background-color: $red-color;
+      }
+
+      img {
+        margin-top: 3rem;
+        width: 90%;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin: auto 0;
+        border: 1px solid black;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.95;
+        }
+      }
+    }
+
+    .credentials_container {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      width: 30rem;
+
+      .project-title {
+        background: #ffffff;
+        box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+        border-radius: 13px;
+        padding: 1rem 3rem;
+        text-align: center;
+        h2 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+
+      .projects_stack {
+        background: #ffffff;
+        box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+        border-radius: 13px;
+        padding: 1rem 3rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-size: 2.2rem;
+          padding: 2rem 0;
+          text-align: center;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          font-size: 1.6rem;
+          text-decoration: none;
+          list-style-type: none;
+          // text-align: center;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 100%;
+        }
+
+        li {
+          border-bottom: 1px solid gray;
+        }
+
+        p {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
