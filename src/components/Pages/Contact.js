@@ -46,7 +46,7 @@ export default function Contact(params) {
               rel="noreferrer"
               className="provider"
             >
-              <img src="images/contact/Telpon.png" alt="telephone" />
+              <img src="images/contact/telpon.png" alt="telephone" />
             </a>
           </div>
         </div>
