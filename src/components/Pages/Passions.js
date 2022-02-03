@@ -41,7 +41,7 @@ const passions = [
     id: "4",
     image: "images/passions/selfdev.svg",
     name: "Self development",
-    text: "Getting up at 6:30 a.m. every day, getting 6.5 hours of sleep, filling every gap in my calendar with "productive activities," engaging in a million things at once... I DON'T DO THAT ANYMORE :) I've realized how important it is to balance life and enjoy the journey, hence I still set the bar high for myself, but not at all costs anymore. I enjoy reading psychology and business books and listening to podcasts and interviews on these topics. In my free time, I also like to be close to nature.",
+    text: "Getting up at 6:30 a.m. every day, getting 6.5 hours of sleep, filling every gap in my calendar with 'productive activities', engaging in a million things at once... I DON'T DO THAT ANYMORE :) I've realized how important it is to balance life and enjoy the journey, hence I still set the bar high for myself, but not at all costs anymore. I enjoy reading psychology and business books and listening to podcasts and interviews on these topics. In my free time, I also like to be close to nature.",
     imagePassion: "",
   },
   {
