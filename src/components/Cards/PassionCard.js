@@ -1,24 +1,11 @@
 import "./PassionCard.scss";
-import { useState, useEffect } from "react";
-
-// TODO: add recoil global state
+import { useState } from "react";
 
 export default function PassionCard({ id, image, name, text }) {
   const [isClicked, setIsClicked] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  // console.log(window.innerWidth);
-
-  console.log(window);
-
   var windowWidth;
-
-  // useEffect(() => {
-  //   if (windowWidth <= 600) setIsMobile(true);
-  //   if (windowWidth > 600) setIsMobile(false);
-  // }, [window]);
-
-  // TODO: add responsive classes
 
   return (
     <>
@@ -38,11 +25,11 @@ export default function PassionCard({ id, image, name, text }) {
         <p id="passion-name">{name}</p>
         {!isClicked ? (
           <p>
-            <span id="click">Click</span> to read more >>
+            <span id="click">Click</span> to {`to read more >>`}
           </p>
         ) : (
           <p>
-            <span id="click">Click</span> to hide >>
+            <span id="click">Click</span> {`to hide >>`}
           </p>
         )}
         {isClicked & isMobile ? (
